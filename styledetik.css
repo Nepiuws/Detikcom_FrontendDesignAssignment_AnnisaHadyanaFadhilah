@@ -1,0 +1,246 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url("bg-desktop\ 1.png");
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+.navbar {
+  border-radius: 40px;
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+  padding: 10px;
+  font-weight: 600;
+}
+.navbar-brand {
+  padding-left: 15px;
+}
+.nav-reg {
+  background: linear-gradient(257.55deg, #59ffb9 0%, #326cff 100%);
+  border-radius: 20px;
+}
+.logo2 {
+  margin-left: 10px;
+  margin-top: 250px;
+}
+.about {
+  margin-left: 50px;
+  margin-top: 20px;
+  background-color: #ffc73c;
+  padding: 10px 15px;
+  width: fit-content;
+  border-radius: 40px;
+  font-size: small;
+  color: #ffff;
+  box-shadow: 0px 18px 40px 12px #ffd36759;
+}
+table {
+  border-collapse: separate;
+  width: 90%;
+  margin-top: 300px;
+  border-spacing: 20px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  table-layout: fixed;
+  color: #ffff;
+}
+
+.acara tr,
+.acara td {
+  text-align: left;
+  padding: 30px;
+  border-radius: 32px;
+  border-spacing: 20px;
+  height: fit-content;
+  background: linear-gradient(236.72deg, #59ffb9 -30.09%, #326cff 71.21%);
+}
+.acara .map {
+  width: 100%;
+}
+.acara .ran {
+  width: 25%;
+  display: flex;
+  margin-right: 20px;
+}
+.performance {
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+}
+.judul {
+  font-size: 27;
+  font-style: italic;
+  margin: 0;
+  letter-spacing: 0em;
+  line-height: 40px;
+}
+.acara p {
+  padding: p;
+}
+.daftar {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 50px;
+  background-color: #ffc73c;
+  padding: 10px 15px;
+  width: fit-content;
+  border-radius: 40px;
+  font-size: small;
+  color: #ffff;
+  box-shadow: 0px 18px 40px 12px #ffd36759;
+}
+
+.slider .partner {
+  margin-top: 100px;
+  text-align: center;
+  color: white;
+}
+.slider {
+  height: 350px;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background: linear-gradient(236.72deg, #59ffb9 -30.09%, #326cff 71.21%);
+}
+.slide-track {
+  white-space: nowrap;
+  display: flex;
+  width: calc(250px * 16);
+  animation: scroll 30s linear infinite;
+}
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 16));
+  }
+}
+.slide {
+  background-color: white;
+  margin: 10px;
+  padding: 30px;
+  width: fit-content;
+  border-radius: 20px;
+  display: flex;
+  float: flex;
+}
+h2 {
+  text-align: center;
+  margin-top: 100px;
+  font-weight: bold;
+}
+.carousel-inner {
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 0;
+}
+.foto {
+  margin-top: 0px;
+  width: 80%;
+  height: fit-content;
+}
+.foto tr,
+.foto td {
+  margin-top: 0;
+  background: none;
+  overflow: hidden;
+}
+.foto img {
+  margin-top: 0;
+  width: 100%;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.card {
+  border-style: none;
+  margin: 10px;
+}
+.card img {
+  border-radius: 25px;
+}
+.card-body {
+  padding-left: 0;
+}
+.card-text {
+  font-size: 12;
+  font-weight: bold;
+  padding: 0;
+}
+.card-date {
+  font-size: 9;
+  font-weight: 100;
+  margin-top: 2px;
+}
+.more {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 50px;
+  background-color: #ffc73c;
+  padding: 10px 15px;
+  width: fit-content;
+  border-radius: 40px;
+  font-size: small;
+  color: #ffff;
+  box-shadow: 0px 18px 40px 12px #ffd36759;
+}
+.bottom-section {
+  background-image: url(bg-2.jpg);
+  background-position: center bottom; /* Menetapkan posisi gambar di tengah dan bawah */
+  padding-bottom: 410px;
+}
+.footer {
+  background: #28a997;
+}
+.image-container {
+  filter: brightness(0) invert(1);
+  padding-top: 3%;
+  padding-left: 4%;
+}
+.table-footer {
+  margin-top: 20px;
+  width: 95%;
+  height: fit-content;
+}
+.column1 {
+  width: 80%;
+}
+.column2 {
+  width: 20%;
+  text-align: center;
+}
+.column3 {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.horizontal-line {
+  border-top: 1px solid #ffff;
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.copyright {
+  padding: 20px 30px 50px 50px;
+  color: white;
+}
